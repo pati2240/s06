@@ -1,0 +1,13 @@
+table{
+ border-collapse: collapse;   
+ text-align: center;
+ font-family: sans-serif;
+ margin: 050px auto;
+ width: 800px;
+ font-weight: 400;
+ font-size: 20px;
+}
+table thead tr th,table tbody tr td{
+    border: 2px solid black;
+    padding: 20px;
+}
