@@ -1,3 +1,35 @@
+body{
+    background-image: linear-gradient(160deg,rgb(89, 89, 224),purple,rgb(173, 60, 158));
+}
 table{
+    border-collapse: collapse;
     font-family: sans-serif;
+    text-align: center;
+    margin: 50px auto;
+    font-size: 30px;
+    width: 800px;
+    border-radius: .5em;
+    overflow: hidden;
+}
+thead tr th,tbody tr td{
+    border: 2px solid black;
+    padding: 10px;
+}
+thead tr th{
+    color: aliceblue;
+    background-color: rgb(16, 16, 80);
+}
+tbody tr img{
+    padding: 10px;
+
+}
+#soundcloud{
+    background-color:  rgb(16, 16, 80);
+}
+tbody tr .headimg{
+    background-color: aliceblue;
+}
+tbody tr .font{
+    font-size: 20px;
+    text-align: left;
 }
