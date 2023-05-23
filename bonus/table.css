@@ -1,35 +1,71 @@
-body{
-    background-image: linear-gradient(160deg,rgb(89, 89, 224),purple,rgb(173, 60, 158));
+body {
+    background-image: linear-gradient(160deg, rgb(89, 89, 224), purple, rgb(173, 60, 158));
 }
-table{
+
+table {
     border-collapse: collapse;
     font-family: sans-serif;
     text-align: center;
     margin: 50px auto;
     font-size: 30px;
-    width: 800px;
+    width: 1000px;
     border-radius: .5em;
     overflow: hidden;
+    font-weight: bold;
 }
-thead tr th,tbody tr td{
-    border: 2px solid black;
+
+thead tr th,
+tbody tr td {
     padding: 10px;
 }
-thead tr th{
+
+thead tr th {
     color: aliceblue;
     background-color: rgb(16, 16, 80);
 }
-tbody tr img{
+
+tbody tr img {
     padding: 10px;
 
 }
-#soundcloud{
-    background-color:  rgb(16, 16, 80);
+
+#soundcloud {
+    background-color: rgb(16, 16, 80);
+    padding: 20px 50px 20px 50px;
 }
-tbody tr .headimg{
+
+tbody tr .headimg {
     background-color: aliceblue;
 }
-tbody tr .font{
+
+tbody tr .font {
     font-size: 20px;
     text-align: left;
+}
+
+.odd {
+    background-color: rgb(216, 216, 216)
+}
+
+.even {
+    background-color: rgb(182, 182, 182)
+}
+
+.devider {
+    border-right: 2px solid black;
+}
+
+.basic {
+    color: rgb(209, 107, 184);
+}
+
+.standard {
+    color: rgb(105, 160, 179);
+}
+
+.premium {
+    color: gold;
+}
+#scale{
+    padding: 10px 30px 10px 30px;
 }
